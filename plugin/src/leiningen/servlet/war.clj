@@ -11,7 +11,7 @@
                           File FileOutputStream)
            (java.util.jar JarEntry JarOutputStream Manifest)
            (java.util.zip ZipException)
-           (org.sonatype.aether.resolution DependencyResolutionException)))
+           (org.eclipse.aether.resolution DependencyResolutionException)))
 
 
 (defn classpath-entries
